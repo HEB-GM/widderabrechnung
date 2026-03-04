@@ -1,12 +1,12 @@
 import { useState, useEffect } from "react";
 
 const DEFAULT_ITEMS = [
-  { id: 1, name: "Bier", price: 4.50 },
-  { id: 2, name: "Wein", price: 7.00 },
-  { id: 3, name: "Cola", price: 3.50 },
-  { id: 4, name: "Wasser", price: 2.50 },
-  { id: 5, name: "Burger", price: 18.00 },
-  { id: 6, name: "Pizza", price: 19.50 },
+  { id: 1, name: "L", price: 5.80 },
+  { id: 2, name: "G", price: 6.60 },
+  { id: 3, name: "k", price: 5.10 },
+  { id: 4, name: "W", price: 9.00 },
+  { id: 5, name: "Food", price: 20.80 },
+  { id: 6, name: "Brie", price: 18.80 },
 ];
 
 const STORAGE_KEY = "restaurant-items";
